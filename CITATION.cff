@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Tool-Call Reliability Bench: repeated-trial reliability of small local LLM tool calls in English and Roman Urdu"
+version: 1.0.0
+date-released: 2026-11-15
+type: software
+authors:
+  - family-names: Hussain
+    given-names: Muzammal
+    orcid: "https://orcid.org/0009-0001-2570-5686"
+repository-code: "https://github.com/MHKhan50/tool-call-reliability-bench"
+license: MIT
+keywords:
+  - tool calling
+  - function calling
+  - LLM agents
+  - pass^k
+  - Roman Urdu
+  - reliability
