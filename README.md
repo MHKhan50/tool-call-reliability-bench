@@ -1,5 +1,7 @@
 # Tool-Call Reliability Bench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24339821.svg)](https://doi.org/10.5281/zenodo.24339821)
+
 An agent that books the right appointment four times out of five is not safe to leave unattended. This repository measures **pass^k**, the chance that all k attempts at the same task are correct, for small open-weight models run locally on eight physiotherapy-clinic tool calls requested in **English** and in **Roman Urdu**.
 
 **Paper:** *Right Once, Wrong Next Time: Repeated-Trial Reliability of Small Local Models on Roman Urdu Clinic Tool Calls*, November 2026 ([`tool-call-reliability-paper/`](tool-call-reliability-paper/)).
