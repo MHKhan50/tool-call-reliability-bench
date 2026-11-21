@@ -12,7 +12,7 @@
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
-\hypersetup{pdftitle={Right Once, Wrong Next Time: Repeated-Trial Reliability of Small Local Models on Roman Urdu Clinic Tool Calls},pdfauthor={Muzammal Hussain}}
+\hypersetup{pdftitle={Right Once, Wrong Next Time: Repeated-Trial Reliability of Small Local Models on Roman Urdu Clinic Tool Calls},pdfauthor={Muzammal Hussain and Maryam Khalid}}
 \usepackage{caption}
 \captionsetup{font=small,labelfont=bf}
 
@@ -21,10 +21,11 @@
 \setlength{\emergencystretch}{3em}
 
 \title{\textbf{Right Once, Wrong Next Time: Repeated-Trial Reliability of\\Small Local Models on Roman Urdu Clinic Tool Calls}}
-\author{Muzammal Hussain\\
-\small Independent researcher, Glasgow, United Kingdom\\
-\small \href{mailto:muzammal@masmatixinnovations.co.uk}{muzammal@masmatixinnovations.co.uk}\\
-\small ORCID: \href{https://orcid.org/0009-0001-2570-5686}{0009-0001-2570-5686}}
+\author{Muzammal Hussain$^{1}$ \and Maryam Khalid$^{2}$\\[4pt]
+\small $^{1}$Independent researcher, Glasgow, United Kingdom\\
+\small $^{2}$Physiotherapist, Glasgow, United Kingdom\\
+\small Correspondence: \href{mailto:muzammal@masmatixinnovations.co.uk}{muzammal@masmatixinnovations.co.uk}\\
+\small ORCID (M.\ Hussain): \href{https://orcid.org/0009-0001-2570-5686}{0009-0001-2570-5686}}
 \date{\small November 2026}
 
 \begin{document}
@@ -143,7 +144,7 @@ tasks that always, sometimes or never pass, and the number of distinct outputs p
 \code{qwen2.5:3b} at temperature 0 inside a self-correction loop: if a schema validator found problems, they were
 sent back to the model for up to two retries, without the expected values.
 
-\paragraph{Clinician review.} After the runs, a physiotherapist checked the eight requests in both languages with their ground-truth values, and the 32 Roman Urdu rewordings. She marked all eight requests realistic for a clinic, their Roman Urdu natural and equal in meaning to the English, and every ground-truth value correct; she marked all 32 rewordings natural and equal to the original in meaning and values. The Roman Urdu failures reported below are therefore unlikely to come from unnatural wording or wrong reference values, as far as one clinician reader can judge.
+\paragraph{Clinician review.} After the runs, a physiotherapist (M.K.) checked the eight requests in both languages with their ground-truth values, and the 32 Roman Urdu rewordings. She marked all eight requests realistic for a clinic, their Roman Urdu natural and equal in meaning to the English, and every ground-truth value correct; she marked all 32 rewordings natural and equal to the original in meaning and values. The Roman Urdu failures reported below are therefore unlikely to come from unnatural wording or wrong reference values, as far as one clinician reader can judge.
 
 \section{Results}
 
@@ -255,7 +256,7 @@ rewordings were written by the author and are not a sample of real clinic messag
 behave differently. Each call is a single turn, whereas $\tau$-bench scores full conversations. Scoring is exact match
 after light normalisation, so a correct paraphrase of a free-text field counts as wrong. Ollama seeds make runs
 repeatable on one machine but not necessarily across versions or hardware. The validator pilot used one model and
-16 calls. One physiotherapist, who is married to the author, reviewed the requests and rewordings after the runs; a wider panel of clinic staff may judge them differently. No patient data were used.
+16 calls. One physiotherapist, a co-author, reviewed the requests and rewordings after the runs; a wider panel of clinic staff may judge them differently. No patient data were used.
 
 \section{Conclusion}
 
@@ -265,11 +266,11 @@ variation. The failures were schema-valid errors in interpreted values, especial
 words. Before small local agents act on Roman Urdu requests, they should be evaluated over repeated attempts and
 rewordings, and interpreted values should be read back to the user before the call runs.
 
-\section*{Acknowledgements}
-We thank Maryam Khalid, physiotherapist, for reviewing the requests and rewordings.
+\section*{Author contributions}
+M.\ Hussain designed the study, wrote the code, ran the experiments and wrote the paper. M.\ Khalid, a physiotherapist, reviewed the requests and rewordings.
 
 \section*{Competing interests}
-The reviewer is married to the author.
+The authors are married. M.\ Khalid took part in her own time.
 
 \section*{Code and data availability}
 
