@@ -43,9 +43,11 @@ All requests are invented. No patient data were used.
   title     = {{Right Once, Wrong Next Time: Repeated-Trial Reliability of Small Local Models on Roman Urdu Clinic Tool Calls}},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.24339821},
-  url       = {https://doi.org/10.5281/zenodo.24339821}
+  doi       = {10.5281/zenodo.24515451},
+  url       = {https://doi.org/10.5281/zenodo.24515451}
 }
 ```
+
+Software (code, notebooks, results): [doi:10.5281/zenodo.24339821](https://doi.org/10.5281/zenodo.24339821).
 
 See [`CITATION.cff`](CITATION.cff). Code is released under the MIT licence.
