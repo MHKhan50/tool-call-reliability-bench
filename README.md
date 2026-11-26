@@ -51,3 +51,7 @@ All requests are invented. No patient data were used.
 Software (code, notebooks, results): [doi:10.5281/zenodo.24339821](https://doi.org/10.5281/zenodo.24339821).
 
 See [`CITATION.cff`](CITATION.cff). Code is released under the MIT licence.
+
+## Data licence
+
+Data: CC BY 4.0 ([`DATA_LICENSE.txt`](DATA_LICENSE.txt)); the same licence is used on the Kaggle dataset. Code: MIT.
